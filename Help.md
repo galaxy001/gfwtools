@@ -79,3 +79,4 @@ Still need help?
 ----------------
 
 Mailing list: http://groups.google.com/group/shadowsocks
+Issue tracker: https://github.com/shadowsocks/shadowsocks-iOS/issues?state=open
