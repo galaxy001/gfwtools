@@ -4,8 +4,8 @@ Shadowsocks is a cross-platform tunnel proxy which can help you get through fire
 
 This iOS version is for **non-jailbroken devices**. It has two features.
 
-1. As a web browser
-2. As a global PAC proxy, with some limitations
+1. A web browser with all the traffic going through a Shadowsocks proxy
+2. A background global proxy, with some restrictions
 
 Requirements
 -------------
@@ -18,26 +18,25 @@ As a web browser
 Shadowsocks works as a multi-tab web browser. It's really easy to use.
 
 - Tap the + button to open menu.
-- Tap Settings to configure proxy settings.
+- Tap Settings to configure Shadowsocks proxy settings.
 - Tap New Tab to open a new Tab.
-- Swipe to move the tabs. Hold and press to swap tabs.
-- Tap Help for Help.
+- Swipe a tab to scroll the tabs. Hold and press a tab to swap tabs.
 - If you've changed Proxy Mode, **a restart is needed to take effect**.
-(Double tap home button, kill the app, then open the app again).
+(Kill the app, then open the app again).
 
-As a global PAC proxy
+As a global proxy
 ---------------------
 
 Shadowsocks works as a background global PAC proxy, with some restrictions.
 
-- Only works with Wi-Fi network.
+- Only works with Wi-Fi network. But we are working on the cellular network.
 - Only works for a few minutes. Due to iOS restrictions, Shadowsocks can't
 keep running in the background. It's killed after you left it for a while.
 **To keep it running long, you have to come back to Shadowsocks app every
 few minutes.**
 - If you are an iOS developer, you can find some commented code in the source
 code, which tries to **play a piece of music**. Thus the app can keep running all
-the time. But this **prevents us from getting approved in the App Store**. You have
+the time. But this **prevents us from getting approved on the App Store**. You have
 to build the app for yourself, and use the app yourself.
 
 So it's a little tricky to use global proxy.
@@ -46,7 +45,7 @@ So it's a little tricky to use global proxy.
 - Copy this link http://127.0.0.1:8090/proxy.pac
 - Open iOS Settings -> Wi-Fi -> `i` icon on the right of your connected Wi-Fi -> 
 HTTP Proxy. Choose Auto, paste the link in the URL field. Tap back.
-- Other apps now go through the proxy.
+- Other apps now go through the proxy. If they don't, kill and restart them.
 - Come back every few minutes to keep Shadowsocks running in the background.
 
 <a id="server-side"></a>
@@ -66,7 +65,17 @@ You can find all available servers [here](https://github.com/clowwindy/shadowsoc
 
 Some FAQ is in the [Trobleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting).
 
-Contact
---------
+Build (For developers)
+----------------------
+
+First, you have to update submodules:
+
+    git submodule update --recursive --init
+    open shadowsocks.xcodeproj
+
+Then build with XCode.
+
+Still need help?
+----------------
 
 Mailing list: http://groups.google.com/group/shadowsocks
