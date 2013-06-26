@@ -19,7 +19,7 @@ Shadowsocks works as a multi-tab web browser. It's really easy to use.
 
 - Tap the + button to open menu.
 - Tap Settings to configure Shadowsocks proxy settings.
-- Tap New Tab to open a new Tab.
+- Tap New Tab to open a new Tab. Tap URL field on the top to input URL.
 - Swipe a tab to scroll the tabs. Hold and press a tab to swap tabs.
 - If you've changed Proxy Mode, **a restart is needed to take effect**.
 (Kill the app, then open the app again).
