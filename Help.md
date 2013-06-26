@@ -2,7 +2,7 @@ Introduction
 ============
 Shadowsocks is a cross-platform tunnel proxy which can help you get through firewalls.
 
-iOS version has two features.
+This iOS version is for **non-jailbroken devices**. It has two features.
 
 1. As a web browser
 2. As a global PAC proxy, with some limitations
@@ -28,7 +28,7 @@ Shadowsocks works as a multi-tab web browser. It's really easy to use.
 As a global PAC proxy
 ---------------------
 
-###Shadowsocks works as a background global PAC proxy, with some restrictions.
+Shadowsocks works as a background global PAC proxy, with some restrictions.
 
 - Only works with Wi-Fi network.
 - Only works for a few minutes. Due to iOS restrictions, Shadowsocks can't
@@ -40,7 +40,7 @@ code, which tries to **play a piece of music**. Thus the app can keep running al
 the time. But this **prevents us from getting approved in the App Store**. You have
 to build the app for yourself, and use the app yourself.
 
-###How to use global proxy:
+So it's a little tricky to use global proxy.
 
 - Set up proxy settings in shadowsocks.
 - Copy this link http://127.0.0.1:8090/proxy.pac
