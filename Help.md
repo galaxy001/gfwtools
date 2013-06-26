@@ -11,7 +11,7 @@ Requirements
 -------------
 
 - An iOS device, with > iOS 5
-- A Shadowsocks server (See #how-to-setup-server-side)
+- A Shadowsocks server (See [server setup](#how-to-setup-server-side))
 
 As a web browser
 ----------------
