@@ -56,7 +56,7 @@ Set up a Shadowsocks server on your VPS.
 
 You can choose one of the following servers:
 
-- [Python version](https://github.com/clowwindy/shadowsocks)
+- [Python version](https://github.com/clowwindy/shadowsocks) ([中文](https://github.com/clowwindy/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E))
 - [Go version](https://github.com/shadowsocks/shadowsocks-go) ([中文](http://shadowsocks.github.io/shadowsocks-go/))
 - [Node.js version](https://github.com/clowwindy/shadowsocks-nodejs)
 - [C version](https://github.com/madeye/shadowsocks-libev)
