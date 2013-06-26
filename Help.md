@@ -10,22 +10,25 @@ iOS version has two features.
 Requirements
 -------------
 
-- An iOS device, with > iOS 5
-- A Shadowsocks server (See [server setup](#how-to-setup-server-side))
+- An iOS device, with >= iOS 5
+- A Shadowsocks server (See [server setup](#server-side))
 
 As a web browser
 ----------------
 Shadowsocks works as a multi-tab web browser. It's really easy to use.
 
 - Tap the + button to open menu.
-- Tap settings to input proxy settings.
+- Tap Settings to configure proxy settings.
+- Tap New Tab to open a new Tab.
+- Swipe to move the tabs. Hold and press to swap tabs.
 - Tap Help for Help.
 - If you've changed Proxy Mode, **a restart is needed to take effect**.
 (Double tap home button, kill the app, then open the app again).
 
 As a global PAC proxy
 ---------------------
-Shadowsocks works as a background global PAC proxy, with some restrictions.
+
+###Shadowsocks works as a background global PAC proxy, with some restrictions.
 
 - Only works with Wi-Fi network.
 - Only works for a few minutes. Due to iOS restrictions, Shadowsocks can't
@@ -33,20 +36,24 @@ keep running in the background. It's killed after you left it for a while.
 **To keep it running long, you have to come back to Shadowsocks app every
 few minutes.**
 - If you are an iOS developer, you can find some commented code in the source
-code, which plays a piece of music. Thus the app can keep running all the time.
-But this **prevents us from getting approved in the App Store**. You have to build
-the app for yourself, and use the app yourself.
+code, which tries to **play a piece of music**. Thus the app can keep running all
+the time. But this **prevents us from getting approved in the App Store**. You have
+to build the app for yourself, and use the app yourself.
 
-How to use global proxy:
+###How to use global proxy:
 
 - Set up proxy settings in shadowsocks.
 - Copy this link http://127.0.0.1:8090/proxy.pac
-- Open iOS Settings -> Wi-Fi -> `i` icon on the right of your connected Wi-Fi -> HTTP Proxy. Choose Auto, paste the link in the URL field.
+- Open iOS Settings -> Wi-Fi -> `i` icon on the right of your connected Wi-Fi -> 
+HTTP Proxy. Choose Auto, paste the link in the URL field. Tap back.
 - Other apps now go through the proxy.
 - Come back every few minutes to keep Shadowsocks running in the background.
 
+<a id="server-side"></a>
 How to setup server side
 ------------------------
+
+Set up a Shadowsocks server on your VPS.
 
 You can choose one of the following servers:
 
