@@ -31,8 +31,8 @@ Shadowsocks works as a background global PAC proxy, with some restrictions.
 
 - Only works with Wi-Fi network. But we are working on the cellular network.
 - Only works for a few minutes. Due to iOS restrictions, Shadowsocks can't
-keep running in the background. It's killed after you left it for a while.
-**To keep it running long, you have to come back to Shadowsocks app every
+keep running in the background. It's killed after you leave it for a while.
+**To keep it running for an extended period of time, you have to come back to the Shadowsocks app every
 few minutes.**
 - If you are an iOS developer, you can find some commented code in the source
 code, which tries to **play a piece of music**. Thus the app can keep running all
@@ -63,7 +63,7 @@ You can choose one of the following servers:
 
 You can find all available servers [here](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#server-side).
 
-Some FAQ is in the [Trobleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting).
+Some FAQs are in the [Troubleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting) page of the Wiki.
 
 Build (For developers)
 ----------------------
