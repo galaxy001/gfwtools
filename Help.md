@@ -11,7 +11,6 @@ Requirements
 -------------
 
 - An iOS device, with >= iOS 5
-- A Shadowsocks server (See [server setup](#server-side))
 
 As a web browser
 ----------------
@@ -52,7 +51,7 @@ HTTP Proxy. Choose Auto, paste the link in the URL field. Tap back.
 How to setup server side
 ------------------------
 
-Set up a Shadowsocks server on your VPS.
+If you want to use your own server, you can set up a Shadowsocks server on your VPS.
 
 You can choose one of the following servers:
 
