@@ -16,11 +16,6 @@ Install
 
 Please visit the [App Store](https://itunes.apple.com/us/app/shadowsocks/id665729974?ls=1&mt=8).
 
-Requirements
--------------
-
-- An iOS device, with >= iOS 5
-
 As a web browser
 ----------------
 Shadowsocks works as a multi-tab web browser. It's really easy to use.
