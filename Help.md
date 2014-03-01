@@ -51,33 +51,6 @@ HTTP Proxy. Choose Auto, paste the link in the URL field. Tap back.
 - Other apps now go through the proxy. If they don't, kill and restart them.
 - Come back every few minutes to keep Shadowsocks running in the background.
 
-<a id="server-side"></a>
-How to setup server side
-------------------------
-
-If you want to use your own server, you can set up a Shadowsocks server on your VPS.
-
-You can choose one of the following servers:
-
-- [Python version](https://github.com/clowwindy/shadowsocks) ([中文](https://github.com/clowwindy/shadowsocks/wiki/Shadowsocks-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E))
-- [Go version](https://github.com/shadowsocks/shadowsocks-go) ([中文](http://shadowsocks.github.io/shadowsocks-go/))
-- [Node.js version](https://github.com/clowwindy/shadowsocks-nodejs)
-- [C version](https://github.com/madeye/shadowsocks-libev)
-
-You can find all available servers [here](https://github.com/clowwindy/shadowsocks/wiki/Ports-and-Clients#server-side).
-
-Some FAQs are in the [Troubleshooting](https://github.com/clowwindy/shadowsocks/wiki/Troubleshooting) page of the Wiki.
-
-Build (For developers)
-----------------------
-
-First, you have to update submodules:
-
-    git submodule update --recursive --init
-    open shadowsocks.xcodeproj
-
-Then build with XCode.
-
 Still need help?
 ----------------
 
