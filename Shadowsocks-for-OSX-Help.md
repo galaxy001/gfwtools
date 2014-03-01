@@ -2,7 +2,7 @@ Shadowsocks GUI designed for Mac OSX 10.7+, automatically configuring system pro
 
 Download
 --------
-https://sourceforge.net/projects/shadowsocksgui/files/dist/
+http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-1.0.app.zip/download
 
 Basic Usage
 -----------
