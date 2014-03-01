@@ -1,7 +1,8 @@
 Shadowsocks for iOS
 ===================
 
-
+Features
+--------
 Shadowsocks is a cross-platform tunnel proxy which can help you get through firewalls.
 
 This iOS version is for **non-jailbroken devices**. It has two features.
