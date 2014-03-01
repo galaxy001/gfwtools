@@ -2,7 +2,7 @@
 
 下载
 ----
-http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-1.0.app.zip/download
+http://sourceforge.net/projects/shadowsocksgui/files/dist/ShadowsocksX-1.0.zip/download
 
 基本使用
 -------
