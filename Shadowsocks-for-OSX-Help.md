@@ -7,7 +7,7 @@ https://sourceforge.net/projects/shadowsocksgui/
 Basic Usage
 -----------
 1. Unzip the file, move it to a proper place, open it.
-2. If your system refuse to open it, please check *Allow apps downloaded from Anywhere* in *Security & Privacy* in *System Preferences*. If any security prompt come out, please select *Allow*.
+2. If any security prompt come out, please select *Allow*.
 3. Shadowsocks will automatically configure the global system proxy settings.
 4. Close any other proxy or VPN program. If you are using SwitchySharp, please set its mode to *Use System Proxy Settings*.
 
