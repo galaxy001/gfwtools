@@ -6,7 +6,9 @@
 wget -O- 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | \
 awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > /etc/shadowsocks/ignore.list
 
-/etc/init.d/shadowsocks reload
+if ps | grep -v "grep" | grep "ss-redir"; then
+    /etc/init.d/shadowsocks reload
+fi
 ```
 
  - 使用 `chmod +x /root/update_ignore_list` 添加可执行权限
