@@ -3,11 +3,10 @@
 ```sh
 #!/bin/sh
 
-wget -O- 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > /etc/shadowsocks/ignore.list
-# 适用于 6a7d04e 之后版本
+wget -O- 'http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest' | \
+awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > /etc/shadowsocks/ignore.list
+
 /etc/init.d/shadowsocks reload
-# 适用于 6a7d04e 之前版本
-# /etc/init.d/shadowsocks restart
 ```
 使用 `chmod +x /root/update_ignore_list` 添加可执行权限
 
