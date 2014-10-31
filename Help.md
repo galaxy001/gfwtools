@@ -37,10 +37,6 @@ Shadowsocks works as a background global PAC proxy, with some restrictions.
 keep running in the background. It's killed after you leave it for a while.
 **To keep it running for an extended period of time, you have to come back to the Shadowsocks app every
 few minutes.**
-- If you are an iOS developer, you can find some commented code in the source
-code, which **keeps playing silence music in the background**. Thus the app can keep running all
-the time. But this **prevents us from getting approved on the App Store**. You have
-to build the app for yourself, and use the app yourself.
 
 So it's a little tricky to use global proxy.
 
