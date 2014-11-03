@@ -1,4 +1,4 @@
-Shadowsocks GUI designed for Mac OSX 10.7+, automatically configuring system proxy settings, with a GFWList PAC.
+Shadowsocks GUI designed for OS X 10.7+, automatically configuring system proxy settings, with a GFWList PAC.
 
 [中文帮助](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9)
 Download
