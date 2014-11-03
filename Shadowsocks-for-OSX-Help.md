@@ -16,5 +16,6 @@ Advanced
 --------
 1. If you'd rather use SwitchySharp than a global PAC proxy, you can turn global proxy off in the menu bar icon. Shadowsocks will still be running at `127.0.0.1:1080`.
 2. You can use your own server instead of the public server. The server preferences are also in the menu bar icon.
-3. You can check the logs in the Console.app. Logs beginning with `ShadowsocksX:` is logs of Shadowsocks.
+3. You may need to restart Chrome after you choose another server.
+4. You can check the logs in the Console.app. Logs beginning with `ShadowsocksX:` is logs of Shadowsocks.
 
