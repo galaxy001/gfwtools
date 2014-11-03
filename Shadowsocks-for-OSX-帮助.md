@@ -1,4 +1,4 @@
-为 Mac OSX 10.7+ 设计的 Shadowsocks 图形界面，启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量。
+为 OS X 10.7+ 设计的 Shadowsocks 图形界面，启动后可自动实现全局翻墙，并根据 GFWList 区分墙内外流量。
 
 下载
 ----
