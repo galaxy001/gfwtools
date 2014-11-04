@@ -10,6 +10,7 @@ https://sourceforge.net/projects/shadowsocksgui/
 2. 如果弹出系统安全提示，请选「允许」。
 3. Shadowsocks 会自动设置为全局 PAC 代理，Chrome、Safari、Twitter 都可以正常使用了。
 4. 如果你开启了其它翻墙工具，请先将它们关闭。如果你使用了 Chrome 扩展程序 SwitchySharp，请把它的模式设置为「使用系统代理设置」。
+5. 启动后可以在菜单栏上找到 Shadowsocks 图标。
 
 高级使用
 -------
