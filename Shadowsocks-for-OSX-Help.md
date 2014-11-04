@@ -11,6 +11,7 @@ Basic Usage
 2. If any security prompt come out, please select *Allow*.
 3. Shadowsocks will automatically configure the global system proxy settings.
 4. Close any other proxy or VPN program. If you are using SwitchySharp, please set its mode to *Use System Proxy Settings*.
+5. You can find Shadowsocks icon on the right side of the menu bar.
 
 Advanced
 --------
