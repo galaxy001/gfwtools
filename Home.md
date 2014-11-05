@@ -1,1 +1,1 @@
-Welcome to the openwrt-shadowsocks wiki!
+Wiki 尚在完善中, 欢迎编辑。
