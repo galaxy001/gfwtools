@@ -21,6 +21,6 @@
    EXT_ARGS="-s 192.168.1.32,192.168.1.36"
    ```
 
-局限: iptables 使用`-s` 时可以指定多个由 <kbd>,</kbd> 隔开的 IP, 而使用 <kbd>!</kbd> 反转规则时只能指定一个 IP.
+限制: iptables 使用`-s` 时可以指定多个由 <kbd>,</kbd> 隔开的 IP, 而使用 <kbd>!</kbd> 反转规则时只能指定一个 IP.
 
  [1]: https://github.com/aa65535/openwrt-shadowsocks/commit/0c50b35
