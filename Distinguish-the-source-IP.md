@@ -1,4 +1,4 @@
-注意: 此功能在 [SHA1][1] 之后可用。
+注意: 此功能在 [0c50b35][1] 之后可用。
 
 通过修改 `/etc/init.d/shadowsocks` 中的 `EXT_ARGS` 变量可以:
 
@@ -23,4 +23,4 @@
 
 局限: iptables 使用`-s` 时可以指定多个由 <kbd>,</kbd> 隔开的 IP, 而使用 <kbd>!</kbd> 反转规则时只能指定一个 IP.
 
- [1]: https://github.com/aa65535/openwrt-shadowsocks/commit/
+ [1]: https://github.com/aa65535/openwrt-shadowsocks/commit/0c50b35
