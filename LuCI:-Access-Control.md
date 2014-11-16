@@ -1,4 +1,4 @@
-**注意:** 此功能在 [709f931][1] 之后可用，需要安装相应的 [LuCI](https://github.com/aa65535/openwrt-dist-luci) 。
+**注意:** 此功能在 [709f931][1] 之后可用，需要安装相应的 [LuCI APP][2] 。
 
 通过设置 LuCI 中的 **访问控制** 可以:
 
@@ -20,3 +20,4 @@
 
 
  [1]: https://github.com/aa65535/openwrt-shadowsocks/commit/709f931
+ [2]: https://github.com/aa65535/openwrt-dist-luci
