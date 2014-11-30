@@ -21,8 +21,10 @@
    EXT_ARGS="-s 192.168.1.32,192.168.1.36"
    ```
 
-限制: iptables 使用`-s` 时可以指定多个由 <kbd>,</kbd> 隔开的 IP, 而使用 <kbd>!</kbd> 反转规则时只能指定一个 IP.
+限制: iptables 使用`-s` 时可以指定多个由 <kbd>,</kbd> 隔开的 IP, 而使用 <kbd>!</kbd> 反转规则时只能指定一个 IP.  
+解决: 可以使用 [CIDR][C] 表示多个连续的 IP, 如 `192.168.1.0/25` 可以表示 `192.168.1.1 - 192.168.1.127` .
 
  [1]: https://github.com/aa65535/openwrt-shadowsocks/commit/0c50b35
  [2]: https://github.com/aa65535/openwrt-shadowsocks/commit/709f931
  [3]: https://github.com/aa65535/openwrt-shadowsocks/wiki/LuCI:-Access-Control
+ [C]: http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
