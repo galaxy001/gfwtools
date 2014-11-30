@@ -16,8 +16,10 @@
    >>>接受 IP 可以填写多个, 但每行只能填写一个  
    >>>点击输入框后面的**添加按钮**增加新的输入框  
 
-限制: 使用 **接受** 模式时可以指定多 IP, 而使用 **拒绝** 模式时只能指定一个 IP.
+限制: 使用 **接受** 模式时可以指定多 IP, 而使用 **拒绝** 模式时只能指定一个 IP.  
+解决: 可以使用 [CIDR][C] 表示多个连续的 IP, 如 `192.168.1.0/25` 可以表示 `192.168.1.1 - 192.168.1.127` .
 
 
  [1]: https://github.com/aa65535/openwrt-shadowsocks/commit/709f931
  [2]: https://github.com/aa65535/openwrt-dist-luci
+ [C]: http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
