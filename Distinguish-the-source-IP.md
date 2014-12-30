@@ -1,4 +1,5 @@
-**注意:** 此功能在 [0c50b35][1] 之后可用, 在[此处][3]查看 LuCI 版本。
+**注意:** 此功能在 [0c50b35][1] 之后可用, 在[此处][3]查看 LuCI 版本, 
+在 [b431954][2] 之后不建议再使用此页面的方法, 在[此处][U]查看 UCI 设置。
 
 通过修改 `/usr/bin/ss-rules` 中的 `EXT_ARGS` 变量可以:
 
@@ -25,6 +26,7 @@
 解决: 可以使用 [CIDR][C] 表示多个连续的 IP, 如 `192.168.1.0/25` 可以表示 `192.168.1.1 - 192.168.1.127` .
 
  [1]: https://github.com/aa65535/openwrt-shadowsocks/commit/0c50b35
- [2]: https://github.com/aa65535/openwrt-shadowsocks/commit/709f931
+ [2]: https://github.com/aa65535/openwrt-shadowsocks/commit/b431954
  [3]: https://github.com/aa65535/openwrt-shadowsocks/wiki/LuCI:-Access-Control
  [C]: http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
+ [U]: https://github.com/shadowsocks/openwrt-shadowsocks/wiki/Use-UCI-system
