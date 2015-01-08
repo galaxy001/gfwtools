@@ -17,13 +17,16 @@
  server_port      | 服务器端口, `use_conf_file` 值为 `0` 时有效
  local_port       | 本地端口, `use_conf_file` 值为 `0` 时有效
  password         | 密码, `use_conf_file` 值为 `0` 时有效
+ timeout          | 连接超时, `use_conf_file` 值为 `0` 时有效
  encrypt_method   | 加密方式, `use_conf_file` 值为 `0` 时有效
  ignore_list      | 忽略 IP 列表文件路径
  tunnel_enable    | 使用启用 UDP 转发 [0.关闭 1.开启]
  tunnel_port      | 本地 UDP 端口, `tunnel_enable` 值为 `1` 时有效
  tunnel_forward   | UDP 转发地址, `tunnel_enable` 值为 `1` 时有效
- lan_ac_mode      | 内网访问控制模式 `[0.关闭 1.白名单 2.黑名单]`
- lan_ac_ip        | 内网访问控制 IP, 设置多个时使用 `add_list` 参数而不是 `set`
+ lan_ac_mode      | 内网访问控制模式 `[0.已禁用 1.仅允许列表内 2.仅允许列表外]`
+ lan_ac_ip        | 内网访问控制IP, 设置多个时使用 `add_list` 参数而不是 `set`
+ wan_bp_ip        | 外网被忽略的IP, 设置多个时使用 `add_list` 参数而不是 `set`
+ wan_fw_ip        | 外网走代理的IP, 设置多个时使用 `add_list` 参数而不是 `set`
 
 **命令示例**
 
