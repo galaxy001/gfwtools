@@ -19,21 +19,22 @@
  password         | 密码, `use_conf_file` 值为 `0` 时有效
  timeout          | 连接超时, `use_conf_file` 值为 `0` 时有效
  encrypt_method   | 加密方式, `use_conf_file` 值为 `0` 时有效
- ignore_list      | 忽略 IP 列表文件路径
- tunnel_enable    | 使用启用 UDP 转发 [0.关闭 1.开启]
- tunnel_port      | 本地 UDP 端口, `tunnel_enable` 值为 `1` 时有效
- tunnel_forward   | UDP 转发地址, `tunnel_enable` 值为 `1` 时有效
+ ignore_list      | 忽略IP列表文件路径, 留空或者设置为 `/dev/null` 则全局代理
+ tunnel_enable    | 是否启用UDP转发 [0.关闭 1.开启]
+ tunnel_port      | 本地UDP端口, `tunnel_enable` 值为 `1` 时有效
+ tunnel_forward   | UDP转发地址, `tunnel_enable` 值为 `1` 时有效
  lan_ac_mode      | 内网访问控制模式 `[0.已禁用 1.仅允许列表内 2.仅允许列表外]`
  lan_ac_ip        | 内网访问控制IP, 设置多个时使用 `add_list` 参数而不是 `set`
  wan_bp_ip        | 外网被忽略的IP, 设置多个时使用 `add_list` 参数而不是 `set`
  wan_fw_ip        | 外网走代理的IP, 设置多个时使用 `add_list` 参数而不是 `set`
+ ipt_ext          | iptables 的附加参数, 请小心设置
 
 **命令示例**
 
  - 修改内网访问控制模式  
   >`uci set shadowsocks.@shadowsocks[-1].ac_mode='1'`  
 
- - 设置内网访问控制 IP  
+ - 设置内网访问控制IP  
   >```
   uci add_list shadowsocks.@shadowsocks[-1].lan_ac_ip='192.168.1.32'
   uci add_list shadowsocks.@shadowsocks[-1].lan_ac_ip='192.168.1.36'
