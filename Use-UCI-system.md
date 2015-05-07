@@ -22,6 +22,9 @@
  encrypt_method   | 加密方式, `use_conf_file` 值为 `0` 时有效
  ignore_list      | 忽略IP列表文件路径, 留空或者设置为 `/dev/null` 则全局代理
  udp_relay        | 是否打开 UDP 支持 `[0.关闭 1.开启]`
+ tunnel_enable    | 是否启用UDP转发 `[0.关闭 1.开启]`
+ tunnel_port      | 本地UDP端口, `tunnel_enable` 值为 `1` 时有效
+ tunnel_forward   | UDP转发地址, `tunnel_enable` 值为 `1` 时有效
  lan_ac_mode      | 内网访问控制模式 `[0.已禁用 1.仅允许列表内 2.仅允许列表外]`
  lan_ac_ip        | 内网访问控制IP, 设置多个时使用 `add_list` 选项而不是 `set`
  wan_bp_ip        | 外网被忽略的IP, 设置多个时使用 `add_list` 选项而不是 `set`
