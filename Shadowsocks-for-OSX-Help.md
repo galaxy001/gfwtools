@@ -3,7 +3,7 @@ Shadowsocks GUI designed for OS X 10.8+, automatically configuring system proxy 
 [中文帮助](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-%E5%B8%AE%E5%8A%A9)
 Download
 --------
-https://sourceforge.net/projects/shadowsocksgui/
+https://github.com/shadowsocks/shadowsocks-iOS/releases
 
 Basic Usage
 -----------
@@ -19,4 +19,3 @@ Advanced
 2. You can use your own server instead of the public server. The server preferences are also in the menu bar icon.
 3. You may need to restart Chrome after you choose another server.
 4. You can check the logs in the Console.app. Logs beginning with `ShadowsocksX:` are the logs of Shadowsocks.
-
