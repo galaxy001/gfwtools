@@ -1,7 +1,7 @@
 Shadowsocks for iOS
 ===================
 
-** Please wait for iOS 9's new VPN API **
+***Notice: This version is deprecated. Please wait for iOS 9's new VPN API***
 
 Features
 --------
