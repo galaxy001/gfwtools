@@ -2,9 +2,28 @@
 
 https://github.com/shadowsocks/shadowsocks/archive/2.8.2.tar.gz
 
-#### shadowsocks-csharp
+#### shadowsocks-windows
+
+git subtree add --prefix=shadowsocks-windows https://github.com/shadowsocks/shadowsocks-windows.git master
+
+##### shadowsocks-csharp, breakwa11
 
 forked from breakwa11/shadowsocks-csharp
+
+#### shadowsocks-iOS
+
+git subtree add --prefix=shadowsocks-iOS https://github.com/shadowsocks/shadowsocks-iOS.git master
+
+git subtree add --prefix=shadowsocks-iOS.wiki https://github.com/shadowsocks/shadowsocks-iOS.wiki.git master
+
+https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/ShadowsocksX-2.6.3.dmg
+
+https://itunes.apple.com/us/app/shadowsocks/id665729974?mt=8 
+Attention: I just copied my ipa file from iTunes, you need to backup your own.
+
+#### shadowsocks-Android
+
+git subtree add --prefix=shadowsocks-Android https://github.com/shadowsocks/shadowsocks-android.git master
 
 #### GoAgent
 
