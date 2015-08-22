@@ -2,13 +2,34 @@
 
 https://github.com/shadowsocks/shadowsocks/archive/2.8.2.tar.gz
 
+shadowsocks-GUI
+===============
+
+https://github.com/shadowsocks/shadowsocks-gui/blob/master/README.md
+
+#### Windows
+
+Please upgrade to [Shadowsocks for Windows](https://github.com/clowwindy/shadowsocks-csharp)   
+See `shadowsocks-windows` below.
+
+#### OS X
+
+Please upgrade to [ShadowsocksX](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help)   
+See `shadowsocks-iOS` below.
+
+#### Linux users
+
+Please upgrade to [shadowsocks-qt5](https://github.com/librehat/shadowsocks-qt5)   
+by `librehat`, forked as https://github.com/galaxy001/shadowsocks-qt5 .
+
 #### shadowsocks-windows
 
 git subtree add --prefix=shadowsocks-windows https://github.com/shadowsocks/shadowsocks-windows.git master
 
 ##### shadowsocks-csharp, breakwa11
 
-forked from breakwa11/shadowsocks-csharp
+Init forked from breakwa11/shadowsocks-csharp   
+https://github.com/breakwa11/shadowsocks-csharp.git
 
 #### shadowsocks-iOS
 
