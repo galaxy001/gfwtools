@@ -1,0 +1,11 @@
+project.xcworkspace/
+xcuserdata/
+.DS_Store
+*.swp
+release/
+build/
+*.o
+shadowd
+perapp-plugin/theos
+perapp-plugin/.theos
+perapp-plugin/*.deb

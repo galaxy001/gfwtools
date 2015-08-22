@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.linusyang.shadowsocks</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Applications/MobileShadowSocks.app/shadowd</string>
+		<string>-n</string>
+		<string>-d</string>
+		<string>-c</string>
+		<string>/var/mobile/Library/Preferences/com.linusyang.shadowsocks.json</string>
+	</array>
+	<key>ServiceIPC</key>
+	<true/>
+	<key>Sockets</key>
+	<dict>
+		<key>PAC</key>
+		<dict>
+			<key>SockNodeName</key>
+			<string>127.0.0.1</string>
+			<key>SockServiceName</key>
+			<string>1993</string>
+		</dict>
+		<key>SOCKS</key>
+		<dict>
+			<key>SockNodeName</key>
+			<string>127.0.0.1</string>
+			<key>SockServiceName</key>
+			<string>1983</string>
+		</dict>
+	</dict>
+	<key>StandardErrorPath</key>
+	<string>/dev/null</string>
+	<key>StandardOutPath</key>
+	<string>/dev/null</string>
+</dict>
+</plist>
