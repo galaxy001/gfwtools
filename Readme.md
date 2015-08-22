@@ -18,7 +18,7 @@ git subtree add --prefix=shadowsocks-iOS.wiki https://github.com/shadowsocks/sha
 
 https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/ShadowsocksX-2.6.3.dmg
 
-https://itunes.apple.com/us/app/shadowsocks/id665729974?mt=8 
+https://itunes.apple.com/us/app/shadowsocks/id665729974?mt=8   
 Attention: I just copied my ipa file from iTunes, you need to backup your own.
 
 #### shadowsocks-Android
