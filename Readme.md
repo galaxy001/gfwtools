@@ -4,6 +4,8 @@ https://github.com/shadowsocks/shadowsocks/archive/2.8.2.tar.gz
 
 wget -mkEpnp http://shadowsocks.org/en/index.html
 
+git subtree add --prefix=shadowsocks https://github.com/shadowsocks/shadowsocks.git -b 2.8.2
+
 shadowsocks-GUI
 ===============
 
