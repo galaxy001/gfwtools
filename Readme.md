@@ -42,6 +42,12 @@ https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/Shadowsoc
 https://itunes.apple.com/us/app/shadowsocks/id665729974?mt=8   
 Attention: I just copied my ipa file from iTunes, you need to backup your own.
 
+##### ShadowSocks 0.3.2-3
+http://apt.thebigboss.org/onepackage.php?bundleid=com.linusyang.shadowsocks
+
+##### ShadowSocks Per-App Plugin 0.3.2-6
+http://apt.thebigboss.org/onepackage.php?bundleid=com.linusyang.ssperapp
+
 #### shadowsocks-Android
 
 git subtree add --prefix=shadowsocks-Android https://github.com/shadowsocks/shadowsocks-android.git master
