@@ -5,7 +5,8 @@ https://github.com/shadowsocks/shadowsocks/archive/2.8.2.tar.gz
 shadowsocks-GUI
 ===============
 
-https://github.com/shadowsocks/shadowsocks-gui/blob/master/README.md
+https://github.com/shadowsocks/shadowsocks-gui/blob/master/README.md   
+https://github.com/Long-live-shadowsocks
 
 #### Windows
 
@@ -55,6 +56,13 @@ http://apt.thebigboss.org/onepackage.php?bundleid=com.linusyang.ssperapp
 #### shadowsocks-Android
 
 git subtree add --prefix=shadowsocks-Android https://github.com/shadowsocks/shadowsocks-android.git master
+
+#### shadowsocks-libev
+git subtree add --prefix=shadowsocks-libev https://github.com/shadowsocks/shadowsocks-libev.git master
+
+##### Shadowsocks-libev for OpenWrt
+git subtree add --prefix=shadowsocks-libev-openwrt https://github.com/shadowsocks/openwrt-shadowsocks.git master
+git subtree add --prefix=shadowsocks-libev-openwrt.wiki https://github.com/shadowsocks/openwrt-shadowsocks.wiki.git master
 
 #### GoAgent
 
