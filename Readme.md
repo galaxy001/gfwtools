@@ -1,3 +1,7 @@
+#### shadowsocks
+
+https://github.com/shadowsocks/shadowsocks/archive/2.8.2.tar.gz
+
 #### shadowsocks-csharp
 
 forked from breakwa11/shadowsocks-csharp
