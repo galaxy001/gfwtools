@@ -42,6 +42,10 @@ https://github.com/shadowsocks/shadowsocks-iOS/releases/download/2.6.3/Shadowsoc
 https://itunes.apple.com/us/app/shadowsocks/id665729974?mt=8   
 Attention: I just copied my ipa file from iTunes, you need to backup your own.
 
+#### MobileShadowSocks
+
+git subtree add --prefix=MobileShadowSocks-Cydia https://github.com/linusyang/MobileShadowSocks.git master
+
 ##### ShadowSocks 0.3.2-3
 http://apt.thebigboss.org/onepackage.php?bundleid=com.linusyang.shadowsocks
 
